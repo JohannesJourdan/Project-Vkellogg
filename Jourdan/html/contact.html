@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vkellogs</title>
+    <!-- Icons Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- css for navbar & footer -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <script defer src="../js/validation.js"></script>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <a href="#home" id="logo">Vkellogs</a>
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- main section -->
+   
+    <div class="contact-form-container">
+        <form class="contact-form" id = "contact-form">
+            <h1>CONTACT US</h1>
+            <input type="text" id = "firstname" name="first_name" placeholder="First Name" >
+            <input type="text" id = "lastname" name="last_name" placeholder="Last Name" >
+            <input type="email" id = "email" name="email" placeholder="Email" >
+            <input type="tel" id = "phone" name="phone" placeholder="Phone" >
+            <input type="text" id = "message" name="message" placeholder="Message" ></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    
+    <footer>
+      <div class="row primary">
+        <div class="column">
+          <h3>Vkellogs</h3>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Best Product</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Info</h3>
+          <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Formats</a></li>
+              <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Contact</h3>
+          <ul>
+              <li><a href="#">Email</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Stay up to date on our new product!</h3>
+          <div class="subscribe">
+            <input type="email" placeholder="Email" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</body>
+</html>
